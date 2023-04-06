@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="background">
+        <div class="screen" style="padding-top:45px ;padding-left: 20px;">
+            <input type="text" class="dis" id="output"
+                style="width:16.5ch;height: 75px;background-color: rgb(0, 0, 0);border-radius: 7px;box-shadow: 0px 0px 1px 1px rgb(63, 68, 168);border-color:rgb(63, 68, 168);color: white;font-size: 30px;text-align: right">
+        </div>
+        <div class="div1">
+         <button class="btn" onclick="clr()">AC</button>
+         <button class="btn" onclick="del()">C</button>
+         <button class="btn" onclick="display('%')">%</button>
+         <button class="btn" style="padding: 23px;padding-top: 15px;" onclick="display('/')">/</button>
+        </div>
+        <div class="div2">
+         <button class="btn1" style="color:rgb(255, 255, 255)" onclick="display('7')">7</button>
+         <button class="btn1" style="color:rgb(255, 255, 255)" onclick="display('8')">8</button>
+         <button class="btn1" style="color:rgb(255, 255, 255)" onclick="display('9')">9</button>
+         <button class="btn1" onclick="display('*')">x</button>
+        </div>
+        <div class="div3">
+         <button class="btn1" style="color:rgb(255, 255, 255)" onclick="display('4')">4</button>
+         <button class="btn1" style="color:rgb(255, 255, 255)" onclick="display('5')">5</button>
+         <button class="btn1" style="color:rgb(255, 255, 255)" onclick="display('6')">6</button>
+         <button class="btn1" style="padding: 25px;padding-top: 15px;" onclick="display('-')">-</button>
+        </div>
+        <div class="div4">
+         <button class="btn1" style="color:rgb(255, 255, 255)" onclick="display('1')">1</button>
+         <button class="btn1" style="color:rgb(255, 255, 255)" onclick="display('2')">2</button>
+         <button class="btn1" style="color:rgb(255, 255, 255)" onclick="display('3')">3</button>
+         <button class="btn1" onclick="display('+')">+</button>
+        </div>
+        
+        <div class="div4">
+         <button class="btn1" style="padding: 25px;padding-top: 10px;" onclick="display('.')"><b>.</b></button>
+         <button class="btn1" style="color:rgb(255, 255, 255)" onclick="display('0')">0</button>
+         <button class="btn1" style="padding-left: 60px;padding-right: 75px;font-size:35px;text-align: center;padding-top: 10px;" onclick="calculate()">=</button>
+        </div>
+        
+       
+    </div>
+    <script src="z.js"></script>
+</body>
+
+</html>

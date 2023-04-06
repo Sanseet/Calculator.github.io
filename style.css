@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.703);
+    margin-top: 10ch;
+    margin-left: 66ch;
+    margin-right: 62ch;
+    padding-left: 25px;
+    padding-bottom: 22px;
+    box-shadow: 2px 5px 6px 6px rgba(73, 255, 243, 0.648);
+}
+
+.btn {
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    width: 70px;
+    color:aqua;
+    border-style: hidden;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px 1px rgb(63, 68, 168);
+}
+
+.btn1 {
+    width: 70px;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border-style: hidden;
+    color: aqua;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 22px;
+    padding-top: 15px;
+    box-shadow: 0px 0px 1px 1px rgb(63, 68, 168);
+}
+
+.div1 {
+    padding-bottom: 10px;
+    margin-top: 25px;
+    padding-top: 20px;
+    margin-right: 35ch;
+    display: flex;
+}
+
+.div2,
+.div3,
+.div4 {
+    padding-bottom: 10px;
+    margin-top: 8px;
+    padding-top: 8px;
+    margin-right: 35ch;
+    display: flex;
+}
